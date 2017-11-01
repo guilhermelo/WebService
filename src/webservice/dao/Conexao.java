@@ -14,7 +14,7 @@ public class Conexao {
 		if(instance == null){
 			try {
 				DriverManager.registerDriver(new com.mysql.jdbc.Driver());
-				instance = DriverManager.getConnection("jdbc:mysql://192.168.0.101:3306/noticiario", "root", "mandioca");
+				instance = DriverManager.getConnection("jdbc:mysql://192.168.0.101:3306/noticiario", "root", "");
 			} catch (SQLException e) {
 				System.out.println("Erro ao tentar conectar ao banco de dados: " + e.getMessage());
 			}
