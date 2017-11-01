@@ -1,0 +1,7 @@
+webservice/adapter/NoticiaAdapter.class
+webservice/vo/NoticiaVO.class
+webservice/dao/NoticiaDAO.class
+webservice/dao/Conexao.class
+webservice/util/DateUtil.class
+webservice/bo/NoticiaBO.class
+webservice/rest/NoticiaRS.class
